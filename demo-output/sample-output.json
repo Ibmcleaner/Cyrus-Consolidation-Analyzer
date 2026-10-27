@@ -1,0 +1,484 @@
+{
+  "demoOnly": true,
+  "pdfExtractionMocked": true,
+  "storageWritten": false,
+  "bundle": {
+    "schemaVersion": "cyrus-intake-stage-1",
+    "generatedAtUtc": "2026-10-27T12:00:00Z",
+    "season": 2026,
+    "week": 8,
+    "status": "STAGED_NOT_LOADED",
+    "sources": [
+      {
+        "kind": "westgate_standings",
+        "contest": "Westgate",
+        "url": "https://example.invalid/synthetic/westgate_standings.txt",
+        "sha256": "1b9417e32e1585fe2bd819d606f5649947f01ad9cb681e596ce0849d73230eb0",
+        "bytes": 107,
+        "pages": 1
+      },
+      {
+        "kind": "westgate_selections",
+        "contest": "Westgate",
+        "url": "https://example.invalid/synthetic/westgate_selections.txt",
+        "sha256": "5661121f93e05548139a5d7692e864518ac9271f6ada310db8a2e11844f60573",
+        "bytes": 189,
+        "pages": 1
+      },
+      {
+        "kind": "westgate_card",
+        "contest": "Westgate",
+        "url": "https://example.invalid/synthetic/westgate_card.txt",
+        "sha256": "dad60f049769ebd7cf017661dd62223880cc4eedc1643790dd48a912a3fcfdf1",
+        "bytes": 352,
+        "pages": 1
+      },
+      {
+        "kind": "circa_standings",
+        "contest": "Circa",
+        "url": "https://example.invalid/synthetic/circa_standings.txt",
+        "sha256": "1b9417e32e1585fe2bd819d606f5649947f01ad9cb681e596ce0849d73230eb0",
+        "bytes": 107,
+        "pages": 1
+      },
+      {
+        "kind": "circa_selections",
+        "contest": "Circa",
+        "url": "https://example.invalid/synthetic/circa_selections.txt",
+        "sha256": "ab6e74534f0666b8676b7e5fdf2b0b03064f4b791bc9cf710e8e819ef9c01713",
+        "bytes": 898,
+        "pages": 1
+      }
+    ],
+    "contestDataRows": [
+      {
+        "contest": "Westgate",
+        "sourcePlace": 1,
+        "alias": "SAMPLE-A",
+        "record": "20-4-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Arizona Cardinals",
+          "Atlanta Falcons",
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Carolina Panthers"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "47f356ae-db2d-5e59-8695-29867aae19d7",
+        "sourceReference": "https://example.invalid/synthetic/westgate_standings.txt p1; https://example.invalid/synthetic/westgate_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      },
+      {
+        "contest": "Westgate",
+        "sourcePlace": 1,
+        "alias": "SAMPLE-B",
+        "record": "20-4-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Arizona Cardinals",
+          "Atlanta Falcons",
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Carolina Panthers"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "10c841d5-6b96-51cf-9fd0-4cb9b77639fe",
+        "sourceReference": "https://example.invalid/synthetic/westgate_standings.txt p1; https://example.invalid/synthetic/westgate_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      },
+      {
+        "contest": "Westgate",
+        "sourcePlace": 3,
+        "alias": "SAMPLE-C",
+        "record": "19-5-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Carolina Panthers",
+          "Chicago Bears",
+          "Cincinnati Bengals"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "e77865fb-d803-5bcc-9973-1c15291b417b",
+        "sourceReference": "https://example.invalid/synthetic/westgate_standings.txt p1; https://example.invalid/synthetic/westgate_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      },
+      {
+        "contest": "Westgate",
+        "sourcePlace": 3,
+        "alias": "SAMPLE-D",
+        "record": "19-5-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Carolina Panthers",
+          "Chicago Bears",
+          "Cincinnati Bengals",
+          "Cleveland Browns",
+          "Dallas Cowboys"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "1113d20e-ff4b-5b96-af44-329c599bb2e1",
+        "sourceReference": "https://example.invalid/synthetic/westgate_standings.txt p1; https://example.invalid/synthetic/westgate_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      },
+      {
+        "contest": "Circa",
+        "sourcePlace": 1,
+        "alias": "SAMPLE-A",
+        "record": "20-4-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Arizona Cardinals",
+          "Atlanta Falcons",
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Carolina Panthers"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "92e585c8-42e9-57c5-9bb6-c44c283afcbf",
+        "sourceReference": "https://example.invalid/synthetic/circa_standings.txt p1; https://example.invalid/synthetic/circa_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      },
+      {
+        "contest": "Circa",
+        "sourcePlace": 1,
+        "alias": "SAMPLE-B",
+        "record": "20-4-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Arizona Cardinals",
+          "Atlanta Falcons",
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Carolina Panthers"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "a2b3c9ac-86b9-5eb5-b381-0e09e66dd76d",
+        "sourceReference": "https://example.invalid/synthetic/circa_standings.txt p1; https://example.invalid/synthetic/circa_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      },
+      {
+        "contest": "Circa",
+        "sourcePlace": 3,
+        "alias": "SAMPLE-C",
+        "record": "19-5-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Baltimore Ravens",
+          "Buffalo Bills",
+          "Carolina Panthers",
+          "Chicago Bears",
+          "Cincinnati Bengals"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "8a824d2b-c313-50ef-bef6-706b114633dd",
+        "sourceReference": "https://example.invalid/synthetic/circa_standings.txt p1; https://example.invalid/synthetic/circa_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      },
+      {
+        "contest": "Circa",
+        "sourcePlace": 3,
+        "alias": "SAMPLE-D",
+        "record": "19-5-1-0",
+        "ownerNotes": "Automated staging only; official PDFs parsed and cross-checked; owner approval required.",
+        "picks": [
+          "Carolina Panthers",
+          "Chicago Bears",
+          "Cincinnati Bengals",
+          "Cleveland Browns",
+          "Dallas Cowboys"
+        ],
+        "cardLines": [
+          -3.0,
+          3.0,
+          -3.0,
+          3.0,
+          -3.0
+        ],
+        "entryIdentifier": "de380d13-aadc-5996-8ea1-ae0992bbe794",
+        "sourceReference": "https://example.invalid/synthetic/circa_standings.txt p1; https://example.invalid/synthetic/circa_selections.txt p1",
+        "sourceVerified": "Automated checks passed; owner approval pending",
+        "expectedTieSize": 2,
+        "season": 2026,
+        "week": 8
+      }
+    ],
+    "lineRows": [
+      {
+        "game": 1,
+        "officialTeam": "Arizona Cardinals",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 1,
+        "officialTeam": "Atlanta Falcons",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 2,
+        "officialTeam": "Baltimore Ravens",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 2,
+        "officialTeam": "Buffalo Bills",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 3,
+        "officialTeam": "Carolina Panthers",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 3,
+        "officialTeam": "Chicago Bears",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 4,
+        "officialTeam": "Cincinnati Bengals",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 4,
+        "officialTeam": "Cleveland Browns",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 5,
+        "officialTeam": "Dallas Cowboys",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 5,
+        "officialTeam": "Denver Broncos",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 6,
+        "officialTeam": "Detroit Lions",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 6,
+        "officialTeam": "Green Bay Packers",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 7,
+        "officialTeam": "Houston Texans",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 7,
+        "officialTeam": "Indianapolis Colts",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 8,
+        "officialTeam": "Jacksonville Jaguars",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 8,
+        "officialTeam": "Kansas City Chiefs",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 9,
+        "officialTeam": "Las Vegas Raiders",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 9,
+        "officialTeam": "Los Angeles Chargers",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 10,
+        "officialTeam": "Los Angeles Rams",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 10,
+        "officialTeam": "Miami Dolphins",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 11,
+        "officialTeam": "Minnesota Vikings",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 11,
+        "officialTeam": "New England Patriots",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 12,
+        "officialTeam": "New Orleans Saints",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 12,
+        "officialTeam": "New York Giants",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 13,
+        "officialTeam": "New York Jets",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 13,
+        "officialTeam": "Philadelphia Eagles",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      },
+      {
+        "game": 14,
+        "officialTeam": "Pittsburgh Steelers",
+        "westgateCardLine": -3.0,
+        "circaCardLine": -3.0
+      },
+      {
+        "game": 14,
+        "officialTeam": "San Francisco 49ers",
+        "westgateCardLine": 3.0,
+        "circaCardLine": 3.0
+      }
+    ],
+    "validation": {
+      "westgateLeaderEntries": 4,
+      "circaLeaderEntries": 4,
+      "picksPerEntry": 5,
+      "westgateSelections": 20,
+      "circaSelections": 20,
+      "games": 14,
+      "teams": 28,
+      "sourceFiles": 5
+    },
+    "bundleSha256": "863ec51ee9f74b942efde63de0ff1b605e1a841176a540fb16eab9676156ac64"
+  },
+  "agreement": {
+    "Westgate": {
+      "entries": 4,
+      "counts": {
+        "Arizona Cardinals": 2,
+        "Atlanta Falcons": 2,
+        "Baltimore Ravens": 3,
+        "Buffalo Bills": 3,
+        "Carolina Panthers": 4,
+        "Chicago Bears": 2,
+        "Cincinnati Bengals": 2,
+        "Cleveland Browns": 1,
+        "Dallas Cowboys": 1
+      }
+    },
+    "Circa": {
+      "entries": 4,
+      "counts": {
+        "Arizona Cardinals": 2,
+        "Atlanta Falcons": 2,
+        "Baltimore Ravens": 3,
+        "Buffalo Bills": 3,
+        "Carolina Panthers": 4,
+        "Chicago Bears": 2,
+        "Cincinnati Bengals": 2,
+        "Cleveland Browns": 1,
+        "Dallas Cowboys": 1
+      }
+    }
+  },
+  "expectedRefusal": "Westgate selections are missing leading entry rows: ['SAMPLE-A']"
+}
